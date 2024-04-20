@@ -1,29 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/css/tw-elements.min.css" />
   <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
     rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
   <link rel="stylesheet" href="assets/style.css">
-  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com/3.3.0"></script>
+  <script src="assets/script.js"></script>
+  <script src="assets/tailwind.config.js"></script>
   <title>Isaac Cruz - Portafolio</title>
 </head>
 <body>
-  <div class="w-full bg-red-200">
+  <div class="w-full">
     <!-- Main navigation container -->
-    <nav
-      class="relative flex w-full flex-nowrap items-center justify-between bg-zinc-50 py-2 shadow-dark-mild dark:bg-neutral-700 lg:flex-wrap lg:justify-start lg:py-4"
-      data-twe-navbar-ref>
+    <nav class="relative flex w-full flex-nowrap items-center justify-between bg-[#1C282E] py-2 shadow-dark-mild dark:bg-[#1C282E] lg:flex-wrap lg:justify-start lg:py-4" data-twe-navbar-ref>
       <div class="flex w-full flex-wrap items-center justify-between px-3">
         <div class="ms-2">
-          <a class="text-xl text-black dark:text-white" href="#">Isaac Cruz</a>
+          <a class="text-xl text-[#A1AFBA] dark:text-[#A1AFBA]" href="#">Isaac Cruz</a>
         </div>
         <!-- Hamburger button for mobile view -->
         <button
-          class="block border-0 bg-transparent px-2 text-black/50 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200 lg:hidden"
+          class="block border-0 bg-transparent px-2 text-[#A1AFBA]/50 hover:no-underline hover:shadow-none focus:no-underline focus:shadow-none focus:outline-none focus:ring-0 dark:text-neutral-200 lg:hidden"
           type="button" data-twe-collapse-init data-twe-target="#navbarSupportedContent3"
           aria-controls="navbarSupportedContent3" aria-expanded="false" aria-label="Toggle navigation">
           <!-- Hamburger icon -->
@@ -43,23 +45,88 @@
           <ul class="list-style-none me-auto flex flex-col ps-0 lg:mt-1 lg:flex-row" data-twe-navbar-nav-ref>
             <!-- Home link -->
             <li class="my-4 ps-2 lg:my-0 lg:pe-1 lg:ps-2" data-twe-nav-item-ref>
-              <a class="text-black dark:text-white lg:px-2" aria-current="page" href="#" data-twe-nav-link-ref>Inicio</a>
+              <a class="text-[#A1AFBA] dark:text-white lg:px-2" aria-current="page" href="#" data-twe-nav-link-ref>Inicio</a>
             </li>
             <!-- Features link -->
             <li class="mb-4 ps-2 lg:mb-0 lg:pe-1 lg:ps-0" data-twe-nav-item-ref>
-              <a class="p-0 text-black/60 transition duration-200 hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-2"
+              <a class="p-0 text-[#A1AFBA]/60 transition duration-200 hover:text-[#A1AFBA]/80 hover:ease-in-out focus:text-[#A1AFBA]/80 active:text-[#A1AFBA]/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-2"
                 href="#" data-twe-nav-link-ref>Habilidades</a>
             </li>
             <!-- Pricing link -->
             <li class="mb-4 ps-2 lg:mb-0 lg:pe-1 lg:ps-0" data-twe-nav-item-ref>
-              <a class="p-0 text-black/60 transition duration-200 hover:text-black/80 hover:ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-2"
+              <a class="p-0 text-[#A1AFBA]/60 transition duration-200 hover:text-[#A1AFBA]/80 hover:ease-in-out focus:text-[#A1AFBA]/80 active:text-[#A1AFBA]/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-2"
                 href="#" data-twe-nav-link-ref>Proyectos</a>
             </li>
           </ul>
-          <!-- <span class="ms-2 text-black/60 dark:text-white/60">Navbar text with an inline element</span> -->
+          <!-- <span class="ms-2 text-[#A1AFBA]/60 dark:text-white/60">Navbar text with an inline element</span> -->
         </div>
       </div>
     </nav>
   </div>
+
+  <!-- Presentation -->
+  <section class="w-full py-5 lg:py-12 px-3 flex flex-col md:flex-row gap-5">
+    <div class="basis-1/4 px-2 flex justify-center items-center">
+      <img src="assets/img/Image-Header.png" alt="isaac-presentation-photo" class="max-w-lg rounded-md">
+    </div>
+    <div class="basis-3/4 flex flex-col px-2 py-2 gap-5">
+      <h2 class="text-3xl font-bold text-[#273F4B]">Hola soy Isaac!</h2>
+      <p class="w-full lg:w-3/4 xl:w-4/6 text-base md:text-md xl:text-lg">
+        Tengo 13 años de experiencia como desarrollador Fullstack creando aplicaciones web con PHP utilizando el Framework Laravel. Además, puedo crear aplicaciones full responsive utilizando los frameworks Bootstarp 5 o Tailwind CSS. Asimismo, tengo experiencia con el uso de bases de datos relacionales MySql y SQL. Me gusta dedicarme a simplificar procesos y funcionalidades de los sistemas con base en los requerimientos de los usuarios y así brindarles una mejor experiencia.
+      </p>
+      <div class="flex justify-around md:justify-start md:gap-6 text-base md:text-lg">
+        <p>
+          <i class="fa-solid fa-envelope"></i>
+          zack115010@gmail.com
+        </p>
+        <p>
+          <i class="fa-brands fa-whatsapp"></i>
+          +503 7602-2471
+        </p>
+      </div>
+      <div class="flex justify-center md:justify-start">
+        <a href="#!" type="button"
+            class="rounded bg-[#6A8595] p-3 px-4 lg:px-6 font-medium leading-normal text-surface text-xl lg:text-2xl transition duration-150 ease-in-out hover:bg-gray-700 focus:outline-none focus:ring-0 dark:text-white dark:hover:bg-secondary-900"
+            data-twe-ripple-init>
+            Contáctame
+          </a>
+      </div>
+    </div>
+  </section>
+
+  <!--Footer container-->
+  <footer class="flex flex-col items-center bg-[#1C282E] text-center text-surface dark:bg-[#1C282E] dark:text-[#A1AFBA]">
+    <div class="w-full pt-7">
+      <!-- Social media icons container -->
+      <h2 class="text-4xl mb-7 text-[#A1AFBA] px-3">¿Tienes Un Proyecto En Mente?</h2>
+      <div class="mb-7 flex justify-center space-x-2">
+        <!-- 
+        <a href="#!" type="button"
+          class="rounded-full bg-transparent p-3 font-medium uppercase leading-normal text-surface transition duration-150 ease-in-out hover:bg-gray-700 focus:outline-none focus:ring-0 dark:text-white dark:hover:bg-secondary-900"
+          data-twe-ripple-init>
+          <span class="[&>svg]:h-5 [&>svg]:w-5">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 320 512">
+              <path
+                d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z" />
+            </svg>
+          </span>
+        </a>
+        -->
+        <a href="#!" type="button"
+          class="rounded bg-[#6A8595] p-3 px-4 lg:px-6 font-medium leading-normal text-surface text-xl lg:text-2xl transition duration-150 ease-in-out hover:bg-gray-700 focus:outline-none focus:ring-0 dark:text-white dark:hover:bg-secondary-900"
+          data-twe-ripple-init>
+          Contáctame
+        </a>
+      </div>
+    </div>
+  
+    <!--Copyright section-->
+    <div class="w-full bg-black/5 pb-7 text-center">
+      © 2024
+      <a href="https://zackpenado.github.io/" class="mx-3">Isaac Cruz - Portafolio</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/tw-elements/js/tw-elements.umd.min.js"></script>
 </body>
 </html>
