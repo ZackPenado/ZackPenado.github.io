@@ -18,7 +18,7 @@
 <body>
   <div class="w-full">
     <!-- Main navigation container -->
-    <nav class="relative flex w-full flex-nowrap items-center justify-between bg-[#1C282E] py-2 shadow-dark-mild dark:bg-[#1C282E] lg:flex-wrap lg:justify-start lg:py-4" data-twe-navbar-ref>
+    <nav class="relative flex w-full flex-nowrap items-center justify-between bg-[#1C282E] py-5 shadow-dark-mild dark:bg-[#1C282E] lg:flex-wrap lg:justify-start" data-twe-navbar-ref>
       <div class="flex w-full lg:container lg:mx-auto flex-wrap items-center justify-between px-3">
         <div class="ms-2">
           <a class="text-xl text-[#A1AFBA] dark:text-[#A1AFBA]" href="#">
@@ -59,8 +59,8 @@
 
   <!-- Presentation -->
   <section class="lg:container lg:mx-auto py-5 lg:py-12 px-3 flex flex-col md:flex-row gap-5 justify-center">
-    <div class="basis-1/4 px-2 flex justify-center items-center">
-      <img src="assets/img/Image-Header.png" alt="isaac-presentation-photo" class="max-w-lg rounded-md">
+    <div class="basis-1/4 flex justify-center items-center">
+      <img src="assets/img/Image-Header.png" alt="isaac-presentation-photo" class="max-w-lg xl:w-full rounded-md">
     </div>
     <div class="basis-2/4 flex flex-col px-2 py-2 gap-5">
       <h2 class="text-3xl font-bold text-[#273F4B]">Hola soy Isaac!</h2>
@@ -86,7 +86,7 @@
   </section>
 
   <!-- Tools -->
-  <section class="lg:container lg:mx-auto py-8 lg:py-12 px-3 md:px-5 flex flex-col gap-5 justify-center">
+  <section class="lg:container lg:mx-auto py-5 lg:py-12 px-3 md:px-5 flex flex-col gap-5 justify-center">
     <h2 class="w-full text-2xl xl:text-3xl font-bold text-[#273F4B] text-center md:text-left underline underline-offset-8 px-2 mb-5">Herramientas</h2>
     <div class="w-full px-2 grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-6">
       <!-- Card -->
@@ -258,111 +258,174 @@
   </section>
 
   <!-- Projects -->
-  <section class="lg:container lg:mx-auto py-8 lg:py-12 px-3 md:px-5 flex flex-col gap-5 justify-center">
+  <section class="lg:container lg:mx-auto py-5 lg:py-12 px-3 md:px-5 flex flex-col gap-5 justify-center">
     <h2 class="w-full text-2xl xl:text-3xl font-bold text-[#273F4B] text-center md:text-left underline underline-offset-8 px-2 mb-5">Proyectos</h2>
     <div class="w-full px-2 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-5">
       <!-- Card -->
       <div class="flex flex-col gap-3 shadow-md rounded-md items-center">
         <!-- Card Icon -->
-        <div class="relative max-h-96 h-96 w-full flex justify-end items-end card-image rounded-md">
-          <div class="max-h-96 h-96 w-full overflow-hidden bg-[url('/assets/img/projects/edu-superior-index.png')] bg-top bg-cover rounded-md background-image shadow-sm">
+        <div class="relative max-h-72 h-80 lg:h-72 w-full flex justify-end items-end card-image rounded-md">
+          <div class="max-h-72 h-80 lg:h-72 w-full overflow-hidden bg-[url('/assets/img/projects/cocoda/CoCoDA-index-01.png')] bg-top bg-contain bg-no-repeat rounded-md background-image shadow-sm">
           </div>
         </div>
         <!-- Card Info -->
-        <div class="flex flex-col gap-3 w-full py-3 px-3">
+        <div class="flex flex-col gap-3 w-full py-5 px-5">
+          <p class="text-xl font-bold">Sitio web CoCoDA</p>
+          <p><b>Empresa:</b> CoCoDA</p>
+          <p><b>URL:</b> <a href="https://cocoda.org" target="_blank">https://cocoda.org</a></p>
+          <p><b>Roles:</b> Asesor para el uso de Wordpress</p>
+          <p><b>Herramientas:</b> Wordpress, CSS3 y Figma</p>
+          <p><b>Entrega del proyecto:</b> 23/04/2024</p>
+          <p class="text-justify"><b>Descripción:</b><br>La asesoría para este sitio web consistió en una guía detallada sobre las funcionalidades de WordPress a través de un
+          recorrido completo del sitio y una exposición de ejemplos asociados con el objetivo de brindar una noción más amplia de
+          esta herramienta y aprovechar al máximo sus capacidades. Así como brindarles una perspectiva profesional sobre los
+          cambios en apariencia y funcionalidad de su plataforma, atendiendo a sus necesidades particulares como organización sin
+          fines de lucro.</p>
+        </div>
+      </div>
+      <!-- Card -->
+      <div class="flex flex-col gap-3 shadow-md rounded-md items-center">
+        <!-- Card Icon -->
+        <div class="relative max-h-72 h-80 lg:h-72 w-full flex justify-end items-end card-image rounded-md">
+          <div class="max-h-72 h-80 lg:h-72 w-full overflow-hidden bg-[url('/assets/img/projects/edusuperior/edu-superior-index-01.png')] bg-top bg-contain bg-no-repeat rounded-md background-image shadow-sm">
+          </div>
+        </div>
+        <!-- Card Info -->
+        <div class="flex flex-col gap-3 w-full py-5 px-5">
+          <p class="text-xl font-bold">Sitio web Edu Superior</p>
+          <p><b>Empresa:</b> Edu Superior</p>
+          <p><b>URL:</b> <a href="https://edusuperior.org.sv" target="_blank">https://edusuperior.org.sv</a></p>
+          <p><b>Roles:</b> Desarrollador Wordpress y Maquetador</p>
+          <p><b>Herramientas:</b> Wordpress, HTML5, CSS3, Javascript y MySql</p>
+          <p><b>Entrega del proyecto:</b> 22/04/2024</p>
+          <p class="text-justify"><b>Descripción:</b><br>Durante mi colaboración con la empresa Edu Superior, tuve la responsabilidad de adaptar su sitio web a un nuevo diseño. Trabajé en la adaptación del diseño utilizando las herramientas de WordPress, asegurándome de que
+          la maquetación fuera completamente fiel al nuevo diseño en un 100%. Para lograrlo, aproveché mis habilidades en HTML5 y
+          CSS3, garantizando así una transición sin problemas y una experiencia de usuario coherente.</p>
+        </div>
+      </div>
+      <!-- Card -->
+      <div class="flex flex-col gap-3 shadow-md rounded-md items-center">
+        <!-- Card Icon -->
+        <div class="relative max-h-72 h-80 lg:h-72 w-full flex justify-end items-end card-image rounded-md">
+          <div class="max-h-72 h-80 lg:h-72 w-full overflow-hidden bg-[url('/assets/img/projects/dtevivienda/DTE-index.jpeg')] bg-top bg-contain bg-no-repeat rounded-md background-image shadow-sm">
+          </div>
+        </div>
+        <!-- Card Info -->
+        <div class="flex flex-col gap-3 w-full py-5 px-5">
           <p class="text-xl font-bold">Recepción de Documentos Electrónicos Tributarios</p>
           <p><b>Empresa:</b> Ministerio de Vivienda de El Salvador</p>
+          <p><b>URL:</b> N/A</p>
           <p><b>Roles:</b> Analista, Diseñador UX/UI, Desarrollador y SCRUM Master</p>
-          <p><b>Tecnologías:</b> Laravel, Livewire, Tailwind y Alpine JS</p>
-          <p><b>Descripción:</b><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi possimus cupiditate iste? Quo, consequatur obcaecati qui cumque distinctio neque, laborum, dignissimos facilis iste voluptatem cupiditate quam unde tempora a delectus.</p>
+          <p><b>Herramientas:</b> Laravel, Livewire, Tailwind y Alpine JS</p>
+          <p><b>Entrega del proyecto:</b> 22/03/2024</p>
+          <p class="text-justify"><b>Descripción:</b><br>Como Analista, trabajé en la definición de requisitos y procesos. Además, utilicé mis conocimientos
+          como de Figma para crear una interfaz con experiencia de usuario intuitiva y atractiva. Como Desarrollador, implementé las
+          soluciones utilizando tecnologías de ultima generación, garantizando la funcionalidad óptima del sistema.
+          También asumí el rol de SCRUM Master, asegurando la aplicación efectiva de la metodología ágil.</p>
         </div>
       </div>
       <!-- Card -->
       <div class="flex flex-col gap-3 shadow-md rounded-md items-center">
         <!-- Card Icon -->
-        <div class="relative max-h-96 h-96 w-full flex justify-end items-end card-image rounded-md">
-          <div class="max-h-96 h-96 w-full overflow-hidden bg-[url('/assets/img/projects/edu-superior-index.png')] bg-top bg-cover rounded-md background-image shadow-sm">
+        <div class="relative max-h-72 h-80 lg:h-72 w-full flex justify-end items-end card-image rounded-md">
+          <div class="max-h-72 h-80 lg:h-72 w-full overflow-hidden bg-[url('/assets/img/projects/usrvivienda/Gestion-Usuarios-index.jpeg')] bg-top bg-contain bg-no-repeat rounded-md background-image shadow-sm">
           </div>
         </div>
         <!-- Card Info -->
-        <div class="flex flex-col gap-3 w-full py-3 px-3">
+        <div class="flex flex-col gap-3 w-full py-5 px-5">
           <p class="text-xl font-bold">Gestión de Usuarios para Múltiples Sistemas</p>
           <p><b>Empresa:</b> Ministerio de Vivienda de El Salvador</p>
+          <p><b>URL:</b> N/A</p>
           <p><b>Roles:</b> Analista, Diseñador UX/UI, Desarrollador y SCRUM Master</p>
-          <p><b>Tecnologías:</b> Laravel, Livewire, Tailwind y Alpine JS</p>
-          <p><b>Descripción:</b><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi possimus cupiditate iste? Quo, consequatur obcaecati qui cumque distinctio neque, laborum, dignissimos facilis iste voluptatem cupiditate quam unde tempora a delectus.</p>
+          <p><b>Herramientas:</b> Laravel, Livewire, Tailwind y Alpine JS</p>
+          <p><b>Entrega del proyecto:</b> 01/12/2023</p>
+          <p class="text-justify"><b>Descripción:</b><br>En el Ministerio de Vivienda, formé parte del proyecto "Gestión de Usuarios", desempeñando varios roles fundamentales.
+          Como Analista, participé en la definición de requisitos y procesos para centralizar a los usuarios de todos los sistemas
+          del ministerio. Como Diseñador UX/UI, mi objetivo fue crear una interfaz intuitiva y atractiva para facilitar la gestión
+          de usuarios. Además, en mi rol de Desarrollador, implementé soluciones que permitieron realizar cambios de contraseña,
+          roles, permisos, y la creación de usuarios nuevos. También asumí el rol de SCRUM Master, garantizando la aplicación
+          efectiva de la metodología ágil y facilitando la comunicación y colaboración dentro del equipo de desarrollo.</p>
         </div>
       </div>
       <!-- Card -->
       <div class="flex flex-col gap-3 shadow-md rounded-md items-center">
         <!-- Card Icon -->
-        <div class="relative max-h-96 h-96 w-full flex justify-end items-end card-image rounded-md">
-          <div class="max-h-96 h-96 w-full overflow-hidden bg-[url('/assets/img/projects/edu-superior-index.png')] bg-top bg-cover rounded-md background-image shadow-sm">
+        <div class="relative max-h-72 h-80 lg:h-72 w-full flex justify-end items-end card-image rounded-md">
+          <div class="max-h-72 h-80 lg:h-72 w-full overflow-hidden bg-[url('/assets/img/projects/proveeduria/Proveeduria-index.jpeg')] bg-top bg-contain bg-no-repeat rounded-md background-image shadow-sm">
           </div>
         </div>
         <!-- Card Info -->
-        <div class="flex flex-col gap-3 w-full py-3 px-3">
+        <div class="flex flex-col gap-3 w-full py-5 px-5">
           <p class="text-xl font-bold">Proveeduría - Gestión de Insumos</p>
           <p><b>Empresa:</b> Ministerio de Vivienda de El Salvador</p>
+          <p><b>URL:</b> N/A</p>
           <p><b>Roles:</b> Analista, Diseñador UX/UI, Desarrollador y SCRUM Master</p>
-          <p><b>Tecnologías:</b> Laravel, Livewire, Tailwind y Alpine JS</p>
-          <p><b>Descripción:</b><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi possimus cupiditate iste? Quo, consequatur obcaecati qui cumque distinctio neque, laborum, dignissimos facilis iste voluptatem cupiditate quam unde tempora a delectus.</p>
+          <p><b>Herramientas:</b> Laravel, Livewire, Tailwind y Alpine JS</p>
+          <p><b>Entrega del proyecto:</b> 24/04/2024</p>
+          <p class="text-justify"><b>Descripción:</b><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi possimus cupiditate iste? Quo, consequatur obcaecati qui cumque distinctio neque, laborum, dignissimos facilis iste voluptatem cupiditate quam unde tempora a delectus.</p>
         </div>
       </div>
       <!-- Card -->
       <div class="flex flex-col gap-3 shadow-md rounded-md items-center">
         <!-- Card Icon -->
-        <div class="relative max-h-96 h-96 w-full flex justify-end items-end card-image rounded-md">
-          <div class="max-h-96 h-96 w-full overflow-hidden bg-[url('/assets/img/projects/edu-superior-index.png')] bg-top bg-cover rounded-md background-image shadow-sm">
+        <div class="relative max-h-72 h-80 lg:h-72 w-full flex justify-end items-end card-image rounded-md">
+          <div class="max-h-72 h-80 lg:h-72 w-full overflow-hidden bg-[url('/assets/img/projects/assessment/Assessment-login.png')] bg-top bg-contain bg-no-repeat rounded-md background-image shadow-sm">
           </div>
         </div>
         <!-- Card Info -->
-        <div class="flex flex-col gap-3 w-full py-3 px-3">
-          <p class="text-xl font-bold">Assesstment - E-learning y evaluación del personal</p>
+        <div class="flex flex-col gap-3 w-full py-5 px-5">
+          <p class="text-xl font-bold">Assessment - E-learning y evaluación del personal</p>
           <p><b>Empresa:</b> Ministerio de Vivienda de El Salvador</p>
+          <p><b>URL:</b> N/A</p>
           <p><b>Roles:</b> Analista, Diseñador UX/UI, Desarrollador y SCRUM Master</p>
-          <p><b>Tecnologías:</b> Laravel, Livewire, Tailwind y Alpine JS</p>
-          <p><b>Descripción:</b><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi possimus cupiditate iste? Quo, consequatur obcaecati qui cumque distinctio neque, laborum, dignissimos facilis iste voluptatem cupiditate quam unde tempora a delectus.</p>
+          <p><b>Herramientas:</b> Laravel, Livewire, Tailwind y Alpine JS</p>
+          <p><b>Entrega del proyecto:</b> 24/04/2024</p>
+          <p class="text-justify"><b>Descripción:</b><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi possimus cupiditate iste? Quo, consequatur obcaecati qui cumque distinctio neque, laborum, dignissimos facilis iste voluptatem cupiditate quam unde tempora a delectus.</p>
         </div>
       </div>
       <!-- Card -->
       <div class="flex flex-col gap-3 shadow-md rounded-md items-center">
         <!-- Card Icon -->
-        <div class="relative max-h-96 h-96 w-full flex justify-end items-end card-image rounded-md">
-          <div class="max-h-96 h-96 w-full overflow-hidden bg-[url('/assets/img/projects/edu-superior-index.png')] bg-top bg-cover rounded-md background-image shadow-sm">
+        <div class="relative max-h-72 h-80 lg:h-72 w-full flex justify-end items-end card-image rounded-md">
+          <div class="max-h-72 h-80 lg:h-72 w-full overflow-hidden bg-[url('/assets/img/projects/renakit/renakit-index-01.png')] bg-top bg-contain bg-no-repeat rounded-md background-image shadow-sm">
           </div>
         </div>
         <!-- Card Info -->
-        <div class="flex flex-col gap-3 w-full py-3 px-3">
+        <div class="flex flex-col gap-3 w-full py-5 px-5">
           <p class="text-xl font-bold">RenaRecursos - Gestión de documentos internos</p>
           <p><b>Empresa:</b> Ministerio de Vivienda de El Salvador</p>
+          <p><b>URL:</b> N/A</p>
           <p><b>Roles:</b> Analista, Diseñador UX/UI, Desarrollador y SCRUM Master</p>
-          <p><b>Tecnologías:</b> Laravel, Livewire, Tailwind y Alpine JS</p>
-          <p><b>Descripción:</b><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi possimus cupiditate iste? Quo, consequatur obcaecati qui cumque distinctio neque, laborum, dignissimos facilis iste voluptatem cupiditate quam unde tempora a delectus.</p>
+          <p><b>Herramientas:</b> Laravel, Livewire, Tailwind y Alpine JS</p>
+          <p><b>Entrega del proyecto:</b> 24/04/2024</p>
+          <p class="text-justify"><b>Descripción:</b><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi possimus cupiditate iste? Quo, consequatur obcaecati qui cumque distinctio neque, laborum, dignissimos facilis iste voluptatem cupiditate quam unde tempora a delectus.</p>
         </div>
       </div>
       <!-- Card -->
       <div class="flex flex-col gap-3 shadow-md rounded-md items-center">
         <!-- Card Icon -->
-        <div class="relative max-h-96 h-96 w-full flex justify-end items-end card-image rounded-md">
-          <div class="max-h-96 h-96 w-full overflow-hidden bg-[url('/assets/img/projects/ccsa-index.png')] bg-top bg-cover rounded-md background-image shadow-sm">
+        <div class="relative max-h-72 h-80 lg:h-72 w-full flex justify-end items-end card-image rounded-md">
+          <div class="max-h-72 h-80 lg:h-72 w-full overflow-hidden bg-[url('/assets/img/projects/ccsa/ccsa-index.png')] bg-top bg-contain bg-no-repeat rounded-md background-image shadow-sm">
           </div>
         </div>
         <!-- Card Info -->
-        <div class="flex flex-col gap-3 w-full py-3 px-3">
+        <div class="flex flex-col gap-3 w-full py-5 px-5">
           <p class="text-xl font-bold">Sistema de Notas - Ingreso de notas para bachillerato</p>
           <p><b>Empresa:</b> Ministerio de Vivienda de El Salvador</p>
+          <p><b>URL:</b> N/A</p>
           <p><b>Roles:</b> Analista, Diseñador UX/UI, Desarrollador y SCRUM Master</p>
-          <p><b>Tecnologías:</b> Laravel, Livewire, Tailwind y Alpine JS</p>
-          <p><b>Descripción:</b><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi possimus cupiditate iste? Quo, consequatur obcaecati qui cumque distinctio neque, laborum, dignissimos facilis iste voluptatem cupiditate quam unde tempora a delectus.</p>
+          <p><b>Herramientas:</b> Laravel, Livewire, Tailwind y Alpine JS</p>
+          <p><b>Entrega del proyecto:</b> 24/04/2024</p>
+          <p class="text-justify"><b>Descripción:</b><br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi possimus cupiditate iste? Quo, consequatur obcaecati qui cumque distinctio neque, laborum, dignissimos facilis iste voluptatem cupiditate quam unde tempora a delectus.</p>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- Slider -->
   <section>
     <!-- Carousel -->
-    <div id="carouselExampleCaptions" class="relative h-96" data-twe-carousel-init data-twe-ride="carousel">
+    <div id="carouselExampleCaptions" class="relative h-72 md:h-96" data-twe-carousel-init data-twe-ride="carousel">
       <!--Carousel indicators-->
       <div class="absolute bottom-0 left-0 right-0 z-[2] mx-[15%] mb-4 flex list-none justify-center p-0" data-twe-carousel-indicators>
         <button type="button" data-twe-target="#carouselExampleCaptions" data-twe-slide-to="0" data-twe-carousel-active class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none" aria-current="true" aria-label="Slide 1"></button>
@@ -371,10 +434,10 @@
       </div>
 
       <!--Carousel items-->
-      <div class="relative w-full overflow-hidden after:clear-both after:block after:content-[''] h-96">
+      <div class="relative w-full overflow-hidden after:clear-both after:block after:content-[''] h-72 md:h-96">
         <!--First item-->
-        <div class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none h-96" data-twe-carousel-active data-twe-carousel-item style="backface-visibility: hidden">
-          <img src="https://mdbootstrap.com/img/new/textures/full/243.jpg" class="block w-full " alt="15 years of experience in the IT industry" />
+        <div class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none h-72 md:h-96" data-twe-carousel-active data-twe-carousel-item style="backface-visibility: hidden">
+          <img src="https://mdbootstrap.com/img/new/textures/full/243.jpg" class="block h-full md:h-auto w-full" alt="15 years of experience in the IT industry" />
           <div class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
             <h5 class="mb-3 text-xl">
               15 years of experience in the IT industry
@@ -387,8 +450,8 @@
         </div>
 
         <!--Second item-->
-        <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none h-96" data-twe-carousel-item style="backface-visibility: hidden">
-          <img src="https://mdbootstrap.com/img/new/textures/full/102.jpg" class="block w-full " alt="243 completed projects" />
+        <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none h-72 md:h-96" data-twe-carousel-item style="backface-visibility: hidden">
+          <img src="https://mdbootstrap.com/img/new/textures/full/102.jpg" class="block h-full md:h-auto w-full" alt="243 completed projects" />
           <div class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
             <h5 class="mb-3 text-xl">243 completed projects</h5>
             <p class="mb-3">
@@ -398,8 +461,8 @@
         </div>
 
         <!--Third item-->
-        <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none h-96" data-twe-carousel-item style="backface-visibility: hidden">
-          <img src="https://mdbootstrap.com/img/new/textures/full/107.jpg" class="block w-full " alt="53 satisfied customers" />
+        <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none h-72 md:h-96" data-twe-carousel-item style="backface-visibility: hidden">
+          <img src="https://mdbootstrap.com/img/new/textures/full/107.jpg" class="block h-full md:h-auto w-full" alt="53 satisfied customers" />
           <div class="absolute inset-x-[15%] bottom-5 hidden py-5 text-center text-white md:block">
             <h5 class="mb-3 text-xl">53 satisfied customers</h5>
             <p class="mb-3">
@@ -433,7 +496,7 @@
   </section>
 
   <!--Footer container-->
-  <footer class="flex flex-col items-center bg-[#1C282E] text-center text-surface dark:bg-[#1C282E] dark:text-[#A1AFBA]">
+  <footer class="flex flex-col items-center py-5 bg-[#1C282E] text-center text-surface dark:bg-[#1C282E] dark:text-[#A1AFBA]">
     <div class="w-full pt-7">
       <!-- Social media icons container -->
       <h2 class="text-4xl mb-7 text-[#A1AFBA] px-3">¿Tienes Un Proyecto En Mente?</h2>
