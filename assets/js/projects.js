@@ -2,19 +2,23 @@ let projects = new Object();
 
 projects.p1 = {
     'image'          : 'bg-[url("/assets/img/projects/cocoda/CoCoDA-index-01.png")]',
-    'title'          : 'Sitio web Libélula',
-    'client'         : 'Libélula Spanish School',
+    'title_es'       : 'Sitio web Libélula',
+    'title_en'       : 'Libélula Website',
+    'client_es'      : 'Escuela de Español Libélula',
+    'client_en'      : 'Libélula Spanish School',
     'url'            : 'http://libelulaschool.com/',
     'roles'          : '',
-    'tools'          : 'Wordpress, CSS3 y Figma',
+    'tools'          : 'HTML5, Tailwind CSS, Javascript y Figma',
     'enddate'        : '23/04/2024',
     'description_es' : '',
     'description_en' : ''
 };
 projects.p2 = {
     'image'          : 'bg-[url("/assets/img/projects/cocoda/CoCoDA-index-01.png")]',
-    'title'          : 'Sitio web CoCoDA',
-    'client'         : 'CoCoDA',
+    'title_es'       : 'Sitio web CoCoDA',
+    'title_en'       : 'CoCoDA Website',
+    'client_es'      : 'CoCoDA',
+    'client_en'      : 'CoCoDA',
     'url'            : 'https://cocoda.org',
     'roles'          : 'Asesor para el uso de Wordpress',
     'tools'          : 'Wordpress, CSS3 y Figma',
@@ -24,8 +28,10 @@ projects.p2 = {
 };
 projects.p3 = {
     'image'          : 'bg-[url("/assets/img/projects/edusuperior/edu-superior-index-01.png")]',
-    'title'          : 'Sitio web Edu Superior',
-    'client'         : 'Edu Superior',
+    'title_es'       : 'Sitio web Edu Superior',
+    'title_en'       : 'Edu Superior Website',
+    'client_es'      : 'Edu Superior',
+    'client_en'      : 'Edu Superior',
     'url'            : 'https://edusuperior.org.sv',
     'roles'          : 'Desarrollador Wordpress y Maquetador',
     'tools'          : 'Wordpress, HTML5, CSS3, Javascript y MySql',
@@ -35,8 +41,10 @@ projects.p3 = {
 };
 projects.p4 = {
     'image'          : 'bg-[url("/assets/img/projects/dtevivienda/DTE-index.jpeg")]',
-    'title'          : 'Recepción de DTE',
-    'client'         : 'Ministerio de Vivienda de El Salvador',
+    'title_es'       : 'Recepción de DTE',
+    'title_en'       : 'DTE reception',
+    'client_es'      : 'Ministerio de Vivienda de El Salvador',
+    'client_en'      : 'Ministry of Housing of El Salvador',
     'url'            : 'N/A',
     'roles'          : 'Analista, Diseñador UX/UI, Desarrollador y SCRUM Master',
     'tools'          : 'Laravel, Livewire, Tailwind y Alpine JS',
@@ -46,8 +54,10 @@ projects.p4 = {
 };
 projects.p5 = {
     'image'          : 'bg-[url("/assets/img/projects/usrvivienda/Gestion-Usuarios-index.jpeg")]',
-    'title'          : 'Gestión de Usuarios - Múltiples Sistemas',
-    'client'         : 'Ministerio de Vivienda de El Salvador',
+    'title_es'       : 'Gestión de Usuarios - Múltiples Sistemas',
+    'title_en'       : 'User Management - Multiple Systems',
+    'client_es'      : 'Ministerio de Vivienda de El Salvador',
+    'client_en'      : 'Ministry of Housing of El Salvador',
     'url'            : 'N/A',
     'roles'          : 'Analista, Diseñador UX/UI, Desarrollador y SCRUM Master',
     'tools'          : 'Laravel, Livewire, Tailwind y Alpine JS',
@@ -57,8 +67,10 @@ projects.p5 = {
 };
 projects.p6 = {
     'image'          : 'bg-[url("/assets/img/projects/proveeduria/Proveeduria-index.jpeg")]',
-    'title'          : 'Proveeduría - Gestión de Insumos',
-    'client'         : 'Ministerio de Vivienda de El Salvador',
+    'title_es'       : 'Proveeduría - Gestión de Insumos',
+    'title_en'       : 'Supply - Input Management',
+    'client_es'      : 'Ministerio de Vivienda de El Salvador',
+    'client_en'      : 'Ministry of Housing of El Salvador',
     'url'            : 'N/A',
     'roles'          : 'Analista, Diseñador UX/UI, Desarrollador y SCRUM Master',
     'tools'          : 'Laravel, Livewire, Tailwind y Alpine JS',
@@ -68,8 +80,10 @@ projects.p6 = {
 };
 projects.p7 = {
     'image'          : 'bg-[url("/assets/img/projects/assessment/Assessment-login.png")]',
-    'title'          : 'Assessment - E-learning',
-    'client'         : 'Rena Ware Internacional',
+    'title_es'       : 'Assessment - E-learning',
+    'title_en'       : 'Assessment - E-learning',
+    'client_es'      : 'Rena Ware Internacional',
+    'client_en'      : 'Rena Ware International',
     'url'            : 'N/A',
     'roles'          : 'Analista, Diseñador UX/UI, Desarrollador y SCRUM Master',
     'tools'          : 'Laravel, Livewire, Tailwind y Alpine JS',
@@ -79,8 +93,10 @@ projects.p7 = {
 };
 projects.p8 = {
     'image'          : 'bg-[url("/assets/img/projects/renakit/renakit-index-01.png")]',
-    'title'          : 'RenaRecursos - Gestión de documentos',
-    'client'         : 'Rena Ware Internacional',
+    'title_es'       : 'RenaRecursos - Gestión de documentos',
+    'title_en'       : 'RenaResources - Document management',
+    'client_es'      : 'Rena Ware Internacional',
+    'client_en'      : 'Rena Ware International',
     'url'            : 'N/A',
     'roles'          : 'Analista, Diseñador UX/UI, Desarrollador y SCRUM Master',
     'tools'          : 'Laravel, Livewire, Tailwind y Alpine JS',
@@ -90,8 +106,10 @@ projects.p8 = {
 };
 projects.p9 = {
     'image'          : 'bg-[url("/assets/img/projects/ccsa/ccsa-index.png")]',
-    'title'          : 'Sistema de Notas - Ingreso de notas',
-    'client'         : 'Centro Cultural Salvadoreño Americano',
+    'title_es'       : 'Sistema de Notas - Ingreso de notas',
+    'title_en'       : 'Grade System',
+    'client_es'      : 'Centro Cultural Salvadoreño Americano',
+    'client_en'      : 'Salvadoran American Cultural Center',
     'url'            : 'N/A',
     'roles'          : 'Analista, Diseñador UX/UI, Desarrollador y SCRUM Master',
     'tools'          : 'Laravel, Livewire, Tailwind y Alpine JS',
@@ -111,8 +129,8 @@ for (const [key, value] of Object.entries(projects)) {
     projectsCards += "  </div>";
     projectsCards += "  <!-- Card Info -->";
     projectsCards += "  <div class='flex flex-col gap-3 w-full py-5 px-5'>";
-    projectsCards += "    <p class='text-xl font-bold'>"+ value.title +"</p>";
-    projectsCards += "    <p><b>Empresa:</b> " + value.client +"</p>";
+    projectsCards += "    <p class='text-xl font-bold'>"+ value.title_es +"</p>";
+    projectsCards += "    <p><b>Cliente:</b> " + value.client_es +"</p>";
     projectsCards += "    <p><b>URL:</b> <a href='" + value.url +"' target='_blank'>" + value.url +"</a></p>";
     projectsCards += "    <p><b>Roles:</b> " + value.roles +"</p>";
     projectsCards += "    <p><b>Herramientas:</b> " + value.tools +"</p>";
@@ -120,4 +138,26 @@ for (const [key, value] of Object.entries(projects)) {
     projectsCards += "    <p class='text-justify'><b>Descripción:</b><br> " + value.description_es +"</p>";
     projectsCards += "  </div>";
     projectsCards += "</div>";
+}
+
+let projectsCardsEN = "";
+for (const [key, value] of Object.entries(projects)) {
+    projectsCardsEN += "<!-- Card -->";
+    projectsCardsEN += "<div class='flex flex-col gap-3 shadow-md rounded-md items-center'>";
+    projectsCardsEN += "  <!-- Card Icon -->";
+    projectsCardsEN += "  <div class='relative max-h-72 h-80 lg:h-72 w-full flex justify-end items-end card-image rounded-md'>";
+    projectsCardsEN += "    <div class='max-h-72 h-80 lg:h-72 w-full overflow-hidden "+ value.image +" bg-top bg-contain bg-no-repeat rounded-md background-image shadow-sm'>";
+    projectsCardsEN += "    </div>";
+    projectsCardsEN += "  </div>";
+    projectsCardsEN += "  <!-- Card Info -->";
+    projectsCardsEN += "  <div class='flex flex-col gap-3 w-full py-5 px-5'>";
+    projectsCardsEN += "    <p class='text-xl font-bold'>"+ value.title_en +"</p>";
+    projectsCardsEN += "    <p><b>Client:</b> " + value.client_en +"</p>";
+    projectsCardsEN += "    <p><b>URL:</b> <a href='" + value.url +"' target='_blank'>" + value.url +"</a></p>";
+    projectsCardsEN += "    <p><b>Roles:</b> " + value.roles +"</p>";
+    projectsCardsEN += "    <p><b>Tools:</b> " + value.tools +"</p>";
+    projectsCardsEN += "    <p><b>Project end date:</b> " + value.enddate +"</p>";
+    projectsCardsEN += "    <p class='text-justify'><b>Description:</b><br> " + value.description_en +"</p>";
+    projectsCardsEN += "  </div>";
+    projectsCardsEN += "</div>";
 }
