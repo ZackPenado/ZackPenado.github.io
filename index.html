@@ -15,7 +15,7 @@
   <script src="assets/js/tools.js"></script>
   <script src="assets/js/projects.js"></script>
   <!-- <script src="assets/js/carousels.js"></script> -->
-  <title>Isaac Cruz - Portafolio</title>
+  <title>Isaac P. Cruz - Portafolio</title>
 </head>
 
 <body>
@@ -25,7 +25,7 @@
       <div class="flex w-full lg:container lg:mx-auto flex-wrap items-center justify-between px-3">
         <div class="ms-2">
           <a class="text-xl text-[#A1AFBA] dark:text-[#A1AFBA]" href="#">
-            Isaac Cruz - Portafolio
+            Isaac P. Cruz - Portafolio
           </a>
         </div>
         <!-- Hamburger button for mobile view -->
@@ -42,17 +42,17 @@
         <div class="!visible mt-2 hidden basis-[100%] items-center lg:mt-0 lg:!flex lg:basis-auto" id="navbarSupportedContent3" data-twe-collapse-item>
           <ul class="list-style-none me-auto flex flex-col ps-0 lg:mt-1 lg:flex-row" data-twe-navbar-nav-ref>
             <li class="my-4 ps-2 lg:my-0 lg:pe-1 lg:ps-2" data-twe-nav-item-ref>
-              <a class="text-[#A1AFBA] dark:text-white lg:px-2" aria-current="page" href="#" data-twe-nav-link-ref>Inicio</a>
+              <a class="text-[#A1AFBA] dark:text-white lg:px-2" aria-current="page" href="#home" data-twe-nav-link-ref>Inicio</a>
             </li>
             <li class="mb-4 ps-2 lg:mb-0 lg:pe-1 lg:ps-0" data-twe-nav-item-ref>
-              <a class="p-0 text-[#A1AFBA]/60 transition duration-200 hover:text-[#A1AFBA]/80 hover:ease-in-out focus:text-[#A1AFBA]/80 active:text-[#A1AFBA]/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-2" href="#" data-twe-nav-link-ref>Herramientas</a>
+              <a class="p-0 text-[#A1AFBA]/60 transition duration-200 hover:text-[#A1AFBA]/80 hover:ease-in-out focus:text-[#A1AFBA]/80 active:text-[#A1AFBA]/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-2" href="#toolsSection" data-twe-nav-link-ref>Herramientas</a>
             </li>
             <li class="mb-4 ps-2 lg:mb-0 lg:pe-1 lg:ps-0" data-twe-nav-item-ref>
-              <a class="p-0 text-[#A1AFBA]/60 transition duration-200 hover:text-[#A1AFBA]/80 hover:ease-in-out focus:text-[#A1AFBA]/80 active:text-[#A1AFBA]/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-2" href="#" data-twe-nav-link-ref>Proyectos</a>
+              <a class="p-0 text-[#A1AFBA]/60 transition duration-200 hover:text-[#A1AFBA]/80 hover:ease-in-out focus:text-[#A1AFBA]/80 active:text-[#A1AFBA]/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-2" href="#projectsSection" data-twe-nav-link-ref>Proyectos</a>
             </li>
-            <li class="mb-4 ps-2 lg:mb-0 lg:pe-1 lg:ps-0" data-twe-nav-item-ref>
+            <!-- <li class="mb-4 ps-2 lg:mb-0 lg:pe-1 lg:ps-0" data-twe-nav-item-ref>
               <a class="p-0 text-[#A1AFBA]/60 transition duration-200 hover:text-[#A1AFBA]/80 hover:ease-in-out focus:text-[#A1AFBA]/80 active:text-[#A1AFBA]/80 motion-reduce:transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:px-2" href="#" data-twe-nav-link-ref>Asesorías</a>
-            </li>
+            </li> -->
             <li class="mb-4 ps-2 lg:mb-0 lg:pe-1 lg:ps-0 border-b-2 lg:border-0 border-[#A1AFBA]/60" data-twe-nav-item-ref>
               <p class="hidden lg:block text-[#A1AFBA]">|</p>
               <p class="block lg:hidden text-[#A1AFBA]/60">Idioma</p>
@@ -68,7 +68,7 @@
   </div>
 
   <!-- Presentation -->
-  <section class="lg:container lg:mx-auto py-5 lg:py-12 px-3 flex flex-col md:flex-row gap-5 justify-center">
+  <section id="home" class="lg:container lg:mx-auto py-5 lg:py-12 px-3 flex flex-col md:flex-row gap-5 justify-center">
     <div class="basis-1/4 flex justify-center items-center">
       <img src="assets/img/Image-Header.jpg" alt="isaac-presentation-photo" class="max-w-lg xl:w-full rounded-3xl">
     </div>
@@ -96,7 +96,7 @@
   </section>
 
   <!-- Tools -->
-  <section class="lg:container lg:mx-auto py-5 lg:py-12 px-3 md:px-5 flex flex-col gap-5 justify-center">
+  <section id="toolsSection" class="lg:container lg:mx-auto py-5 lg:py-12 px-3 md:px-5 flex flex-col gap-5 justify-center">
     <h2 class="w-full text-2xl xl:text-3xl font-bold text-[#273F4B] text-center md:text-left underline underline-offset-8 px-2 mb-5">Herramientas</h2>
     <div id="tools" class="w-full px-2 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-6 gap-x-4 gap-y-6">
       <!-- Aquí se agregan las cards de las herramientas desde Javascript -->
@@ -104,7 +104,7 @@
   </section>
 
   <!-- Projects -->
-  <section class="lg:container lg:mx-auto py-5 lg:py-12 px-3 md:px-5 flex flex-col gap-5 justify-center">
+  <section id="projectsSection" class="lg:container lg:mx-auto py-5 lg:py-12 px-3 md:px-5 flex flex-col gap-5 justify-center">
     <h2 class="w-full text-2xl xl:text-3xl font-bold text-[#273F4B] text-center md:text-left underline underline-offset-8 px-2 mb-5">Proyectos</h2>
     <div id="projects" class="w-full px-2 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
       <!-- Aquí se agregan las cards de los proyectos desde Javascript -->
@@ -232,7 +232,7 @@
     <!--Copyright section-->
     <div class="w-full bg-black/5 pb-7 text-center">
       © 2024
-      <a href="https://zackpenado.github.io/" class="mx-3">Isaac Cruz - Portafolio</a>
+      <a href="https://zackpenado.github.io/" class="mx-3">Isaac P. Cruz - Portafolio</a>
     </div>
   </footer>
 
