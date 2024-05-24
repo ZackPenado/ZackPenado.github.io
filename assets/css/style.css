@@ -1,13 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
     font-family: "Mulish", sans-serif;
-}
-
-.m7w29c {
-    display: none !important;
-}
-
-.o3Dpx {
-    margin-top: 15px !important;
 }
 
 /*
